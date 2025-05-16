@@ -30,7 +30,7 @@ runs:
         script: |
           const org = "${{ inputs.organization }}";
           const p_number = ${{ inputs.project_number }};
-          const i_node_id = "${{ inputs.issue_id }}";
+          const i_node_id = "${{ inputs.node_id }}";
 
           let item = null;
           let cursor = null;
