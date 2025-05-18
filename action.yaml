@@ -1,6 +1,10 @@
 name: Get ProjectV2 Item ID
 description: This action outputs the ProjectV2 item node ID if exists in the provided project number
 
+branding:
+  icon: 'check-square'
+  color: 'purple'
+
 inputs:
   token:
     description: GitHub Token
